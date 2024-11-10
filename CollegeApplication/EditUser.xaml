@@ -1,0 +1,29 @@
+﻿<Window x:Class="CollegeApplication.EditUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollegeApplication"
+        mc:Ignorable="d"
+        Title="EditUser" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Обновление пользователя" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30"/>
+
+        <StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Width="300">
+            <TextBlock Text="Логин" Style="{StaticResource txtBlockStyle}"></TextBlock>
+            <TextBox x:Name="txtLoginChange" Style="{StaticResource txtBoxStyle}"/>
+            <TextBlock Text="Пароль" Style="{StaticResource txtBlockStyle}"/>
+            <PasswordBox x:Name="pswdChange" Style="{StaticResource pswdBoxStyle}"/>
+            <TextBlock Text="Изменить роль" Style="{StaticResource txtBlockStyle}"/>
+            <TextBox x:Name="txtRoleChange" Style="{StaticResource txtBoxStyle}"/>
+            <Button x:Name="btnSubmitChanges" Click="btnSubmitChanges_Click" Content="Submit" Style="{StaticResource btnStyle}"/>
+
+
+        </StackPanel>
+    </Grid>
+</Window>

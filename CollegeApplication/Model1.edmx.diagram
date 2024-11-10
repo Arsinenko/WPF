@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1f575343ef7041f8be15f8d6ac1f1f96" Name="Diagram1">
+        <EntityTypeShape EntityType="CollegeDBModel.Group" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeDBModel.Role" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeDBModel.Specialization" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeDBModel.Student" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeDBModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeDBModel.Teacher" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeDBModel.User" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="CollegeDBModel.Group_Specialization_IdSpec_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeDBModel.Student_Group_IdGroup_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeDBModel.FK_user_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeDBModel.Student_user_IdUser_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeDBModel.Teacher_user_IdUser_fk" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="CollegeDBModel.Schedule" Width="1.5" PointX="7.5" PointY="8.75" />
+        <EntityTypeShape EntityType="CollegeDBModel.Subjects" Width="1.5" PointX="5.25" PointY="10.125" />
+        <AssociationConnector Association="CollegeDBModel.Schedule_Subjects_id_fk" />
+        <AssociationConnector Association="CollegeDBModel.Schedule_Teacher_IdTeacher_fk" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

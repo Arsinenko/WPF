@@ -1,0 +1,24 @@
+﻿<Window x:Class="CollegeApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollegeApplication"
+        mc:Ignorable="d"
+        Title="CollegeApplication" Height="450" Width="800">
+    <Grid Background="DarkGray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3" />
+            
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,0,0">
+            <TextBlock Text="College application" TextAlignment="Center" FontFamily="Candara" FontSize="30" />
+        </StackPanel>
+        <Frame x:Name="frmAuth" Grid.Row="1" Grid.RowSpan="2" NavigationUIVisibility="Hidden"/>
+        <Frame x:Name="frmMenu" Grid.Row="1" NavigationUIVisibility="Hidden"/>
+        <Frame x:Name="frmContent" Grid.Row="2" NavigationUIVisibility="Hidden" Margin="0,0,0,0"/>
+    </Grid>
+</Window>
