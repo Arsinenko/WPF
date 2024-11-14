@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Arsinenko\\source\\repos\\CollegeApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{010B784E-3D0B-4D3B-9F55-C16E5C80D1AE}|CollegeApplication\\CollegeApplication.csproj|C:\\Users\\Arsinenko\\source\\repos\\CollegeApplication\\collegeapplication\\pagedtgusers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010B784E-3D0B-4D3B-9F55-C16E5C80D1AE}|CollegeApplication\\CollegeApplication.csproj|solutionrelative:collegeapplication\\pagedtgusers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010B784E-3D0B-4D3B-9F55-C16E5C80D1AE}|CollegeApplication\\CollegeApplication.csproj|C:\\Users\\Arsinenko\\source\\repos\\CollegeApplication\\collegeapplication\\adduserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010B784E-3D0B-4D3B-9F55-C16E5C80D1AE}|CollegeApplication\\CollegeApplication.csproj|solutionrelative:collegeapplication\\adduserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PageDtgUsers.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Arsinenko\\source\\repos\\CollegeApplication\\CollegeApplication\\PageDtgUsers.xaml.cs",
+              "RelativeDocumentMoniker": "CollegeApplication\\PageDtgUsers.xaml.cs",
+              "ToolTip": "C:\\Users\\Arsinenko\\source\\repos\\CollegeApplication\\CollegeApplication\\PageDtgUsers.xaml.cs",
+              "RelativeToolTip": "CollegeApplication\\PageDtgUsers.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAWwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T08:16:02.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddUserWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Arsinenko\\source\\repos\\CollegeApplication\\CollegeApplication\\AddUserWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CollegeApplication\\AddUserWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Arsinenko\\source\\repos\\CollegeApplication\\CollegeApplication\\AddUserWindow.xaml.cs",
+              "RelativeToolTip": "CollegeApplication\\AddUserWindow.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T09:14:06.924Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
